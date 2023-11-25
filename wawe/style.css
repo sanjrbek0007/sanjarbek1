@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.project1{
+    height: 980px;
+}
+.serfing{
+    height: 980px;
+}
+.ssilki{
+    color: #FFF;
+font-family: Roboto Condensed;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.6px;
+text-align: center;
+
+gap: 30px;
+}
+h1.Wawe{
+    color: #0D302C;
+font-family: Raleway;
+font-size: 200px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.6px;
+}
+section.project1{
+    background-image: url(wawe.png);
+   padding: 0;
+   margin: 0 auto;
+
+}
+h1.Wawe{
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a.textovik{
+    border-bottom: 1px solid aquamarine;
+}
+.ww{
+    margin-top: 20px;
+    margin-right: 200px;
+    margin-left: -100px;
+}
+h5{
+text-align: center;
+margin-top: -40px;
+}
+h5{
+    color: #000;
+font-family: Roboto Condensed;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.6px;
+}
+.t{
+    padding-left: 30px;
+}
+.serf{
+    text-align: center;
+    margin-top: 160px;
+    color: #01353E;
+font-family: Raleway;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.6px;
+}
+.ppshka1,.ppshka2{
+    color: #242121;
+font-family: Roboto Condensed;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 18px; /* 128.571% */
+letter-spacing: 0.6px;
+
+display: flex;
+width: 480px;
+gap: 40px;
+justify-content: flex-end;
+flex-direction: column;
+justify-content: space-between;
+flex-shrink: 0;
+}
+.ppshechki{
+    margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+   text-align: center;
+    flex-direction: row;
+}
+.ppshka1{
+    
+    te
+}
