@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
 
 .project1{
     height: 980px;
@@ -206,22 +210,52 @@ margin-bottom: 260px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.container{
-    background-color: whitesmoke;
-    width: 100%;
-    height: 940px;
+
+.container h3{
+    font-family: Raleway;
+font-size: 48px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0.6000000238418579px;
+text-align: left;
+
 }
 .cardn1{
     border: 1px solid white;
     background-color: white;
+    width: 360px;
+    height: 577px;
+    margin-bottom: 100px;
+
+    
 }
 .cards{
     display: flex;
     justify-content: center;
     gap: 100px;
-   
+   text-align: center;
+}
+.cardn1 p{
+    font-family: Roboto Condensed;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.6000000238418579px;
+text-align: left;
+padding-left: 30px;
 }
 .cardn1 h4{
-    display: flex;
-    text-align: center;
+    font-family: Roboto Condensed;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0px;
+text-align: center;
+padding-top: 30px;
+}
+.packet{
+    background-color: whitesmoke;
+}
+.map{
+    margin-top: 100px;
+    margin-bottom: 200px;
 }
