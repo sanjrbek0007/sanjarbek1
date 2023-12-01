@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
 
 .project1{
     height: 980px;
@@ -30,6 +34,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 0.6px;
+margin-top: 100px;
 }
 section.project1{
     background-image: url(wawe.png);
@@ -106,7 +111,248 @@ flex-shrink: 0;
    text-align: center;
     flex-direction: row;
 }
-.ppshka1{
+.numbers{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.numb {
+    font-family: Roboto Condensed;
+font-size: 14px;
+font-weight: 300;
+line-height: 18px;
+letter-spacing: 0.6000000238418579px;
+}
+.chisl{
+    font-family: Roboto Condensed;
+font-size: 64px;
+font-weight: 700;
+line-height: 75px;
+letter-spacing: 0.6000000238418579px;
+text-align: left;
+}
+.citata{
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 100px;
+}
+.citatka{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.pctka{
+    padding-left: 400px;
+    font-family: Roboto Condensed;
+font-size: 14px;
+font-style: italic;
+font-weight: 300;
+line-height: 18px;
+letter-spacing: 0.6000000238418579px;
+text-align: left;
+
+}
+.h4iyushka{
+    margin-top: 200px;
+    font-family: Roboto Condensed;
+font-size: 36px;
+font-style: italic;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0.6000000238418579px;
+text-align: left;
+}
+.imgishki{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.komnd{
+    font-family: Raleway;
+font-size: 48px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0.6000000238418579px;
+text-align: left;
+text-align: center;
+margin-bottom: 240px;
+margin-top: 200px;
+}
+.photo1 h4{
+    font-family: Roboto Condensed;
+font-size: 18px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0.6000000238418579px;
+text-align: left;
+}
+.photo1 p{
+    font-family: Roboto Condensed;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.6000000238418579px;
+text-align: left;
+margin-bottom: 260px;
+}
+.packi{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container h3{
+    font-family: Raleway;
+font-size: 48px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0.6000000238418579px;
+text-align: left;
+
+}
+.cardn1{
+    border: 1px solid white;
+    background-color: white;
+    width: 360px;
+    height: 577px;
+    margin-bottom: 100px;
+
     
-    te
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+   text-align: center;
+}
+.cardn1 p{
+    font-family: Roboto Condensed;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.6000000238418579px;
+text-align: left;
+padding-left: 30px;
+}
+.cardn1 h4{
+    font-family: Roboto Condensed;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0px;
+text-align: center;
+padding-top: 30px;
+}
+.packet{
+    background-color: whitesmoke;
+}
+.map{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.slide{
+    width: 100%;
+    height: 800px;
+    background-image: url(slide.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.slide h3{
+   font-family: Roboto Condensed;
+font-size: 48px;
+font-weight: 400;
+line-height: 56px;
+letter-spacing: 0.6000000238418579px;
+text-align: left;
+
+}
+.slide p{
+    font-family: Roboto Condensed;
+font-size: 14px;
+font-weight: 300;
+line-height: 18px;
+letter-spacing: 0.6000000238418579px;
+text-align: left;
+
+}
+.slide div{
+    padding-left: 50%;
+    padding-top: 300px;
+}
+.container-max{
+    min-width: 1900px;
+    width: 100%;
+    margin: 0 auto;
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 100%;
+    border: 1px solid #DADADA;
+    padding: 20px;
+
+
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.6px;
+
+color: #00B2A0;
+
+}
+
+input::placeholder{
+    color: #00B2A0;
+}
+
+.bid{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+form button{
+    color: #242121;
+    text-align: center;
+    width: 350px;
+padding: 24px 0;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.6px;
+border: 1px solid #C4C4C4;
+background: #FFF;
+margin-top: 70px;
+
+}
+.wrap .box{
+    background: #F8F8F8;
+    padding: 50px;
+}
+.box p{
+    color: #242121;
+    font-family: Roboto Condensed;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 125% */
+letter-spacing: 0.6px;
+margin-bottom: 30px;
+}
+.container h3{
+    text-align: center;
+    margin-bottom: 30px;
 }
