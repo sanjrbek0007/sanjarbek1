@@ -1,0 +1,195 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 40px ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.logo{
+    margin-right: 300px;
+}
+a.link{
+    color: #1B1B1D;
+font-family: Jost;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-right: 40px;
+}
+.last{
+    color: #1B1B1D;
+font-family: Jost;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.korzina{
+    margin-left: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 7px 7px;
+    background-color: white;
+}
+.btn{
+    margin-left: 30px;
+    border: 1px solid black;
+    padding: 15px 30px;
+    border-radius: 30px;
+    height: 56px;
+    width: 220px;
+    color: white;
+    background-color: black;
+font-family: Jost;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 173.333% */
+text-transform: uppercase;
+}
+.wrap{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+h1{
+    color: #1B1B1D;
+font-family: Jost;
+font-size: 124px;
+font-style: normal;
+font-weight: 800;
+line-height: 140px; /* 112.903% */
+}
+.block{
+    margin-top: 60px;
+}
+p{
+    color: #64646A;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+    width: 530px;
+    height: 70px;
+}
+.duo{
+    margin-top: 30px;
+
+}
+.down{
+    border: 1px solid black;
+    color: #FFF;
+font-family: Jost;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 166.667% */
+text-transform: uppercase;
+width: 230px;
+height: 70px;
+padding: 20px 40px;
+background-color: black;
+border-radius: 40px;
+}
+.shop{
+    margin-left: 30px;
+    color: #1B1B1D;
+font-family: Jost;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+border-bottom: 1.5px solid grey;
+}
+section{
+    margin-top: 200px;
+    background-color: rgb(236, 235, 235);
+    margin-bottom: 50px;
+}
+.page2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.Explore{
+    color: #1B1B1D;
+text-align: center;
+font-family: Jost;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: 70px; /* 109.375% */
+margin-top: 90px;
+margin-bottom: 40px;
+}
+.page2 p{
+    width: 600px;
+}
+.card1{
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 400px;
+    height: 540px;
+    background-color: white;
+    padding: 37px 37px;
+}
+.cartochki{
+    display: flex;
+    justify-content: center;
+    gap: 50px;  
+    margin-top: 160px;
+}
+h4{
+    color: #1B1B1D;
+font-family: Jost;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.text-card{
+    color: #64646A;
+font-family: Jost;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.crd-btn{
+    color: #FFF;
+font-family: Jost;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 166.667% */
+text-transform: uppercase;
+border: 1px solid black;
+border-radius: 50px;
+background-color: black;
+width: 225px;
+height: 60px;
+margin-left: 50px;
+margin-top: 10px;
+}
+.food{
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+}
