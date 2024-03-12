@@ -1,0 +1,107 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background: rgb(44, 44, 44);
+    color: rgb(170, 170, 170);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.box{
+max-height: 500px;
+min-height: 500px;
+max-width:  1100px;
+min-width:  1100px;
+border: 5px solid rgb(0, 0, 0);
+box-shadow: -1px 1px 98px 0px rgba(255,255,255,1);
+-webkit-box-shadow: -1px 1px 98px 0px rgba(255,255,255,1);
+-moz-box-shadow: -1px 1px 98px 0px rgba(255,255,255,1);
+display: flex;
+
+align-items: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: white;
+color: black;
+
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+img{
+max-width: 700px;
+max-height: 490px;
+min-width: 690px;
+min-height: 490px;
+
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+}
+
+.lorem{
+border: 10px solid black;
+margin-left: 47px;
+height: 400px;
+width: 300px;
+color: black;
+
+pre{
+
+font-size: larger;
+font-weight: 900;
+}
+.RS7{
+margin: 29px 90px;
+}
+.Audi{
+margin-left: 15px;
+}
+.W223{
+margin: 29px 19px;
+}
+.Mercedes{
+margin-left: 15px;
+}
+.Spyder{
+margin: 29px 40px;
+}
+.Porsche{
+margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+}
+
+
+.wrapper{
+    margin-top: 160px;
+display: flex;
+justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+padding-top: 20px;
+}
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 140px;
+    text-decoration: none;
+    border: 10px double white;
+    color: white;
+}
