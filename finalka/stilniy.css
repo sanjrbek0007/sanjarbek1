@@ -36,7 +36,7 @@ position: sticky;
 .card{
   border: 2px solid rgb(184, 184, 184);
 width: 344px;
-height: 440px;
+height: 340px;
 border-radius: 10px;
 background: rgb(44, 44, 44);
 
@@ -161,7 +161,7 @@ flex-wrap: wrap;
     transition: 0.3s;
     box-shadow: 5px 5px 0px 0px rgb(0, 0, 0);
     background-color: #ffffff;
-    margin-top: 65px;
+    margin-top: 20px;
     margin-left: 70px;
   }
   .original-button-1 {
@@ -180,7 +180,7 @@ flex-wrap: wrap;
     transition: 0.3s;
     box-shadow: 5px 5px 0px 0px rgb(0, 0, 0);
     background-color: #ffffff;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 90px;
   }
 .original-button:hover {
