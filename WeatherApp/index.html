@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="card">
+      <!-- Search -->
+      <div class="search">
+        <input type="text" class="userInput" placeholder="Enter City Name" />
+        <button class="searchBTN">
+          <img src="https://cdn-icons-png.flaticon.com/512/61/61088.png" alt="">
+        </button>
+      </div>
+      <div class="error">
+        <p>Please enter valid city name</p>
+      </div>
+      <!-- Weather -->
+      <div class="weather-info-container">
+        <!-- Temp & City -->
+        <div class="weather-higlight">
+         <img class="weather-icon" src="" alt="">
+         <p class="temp">22°C</p>
+         <div class="main">Clouds</div>
+         <p class="city">Hyderabad</p>
+        </div>
+
+        <div class="weather-detail">
+            <div class="col">
+                <div>
+                    <p>66%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                    <p class="wind">5.4km/h</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="tips">
+            <p><i></i>Tip for the day :</p>
+            <p class="tip-list">To protect yourself during extreme heat, stay hydrated by drinking plenty of water</p>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
