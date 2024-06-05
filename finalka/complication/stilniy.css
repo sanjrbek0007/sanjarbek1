@@ -10,6 +10,14 @@
 
 
   }
+
+
+  .avtomaniya_wrapper{
+  
+  }
+
+
+
 img{
   height: 200px;
   width: 340px;
@@ -55,12 +63,8 @@ margin-bottom: 30px;
 
 
 }
-.koenig{
 
-  padding-top: 15px;
-  padding-left: 20px;
 
-}
 .header{
 font-size: 150px;
 }
@@ -85,34 +89,6 @@ font-size: 150px;
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
-}
-.koenig{
-
-  color: rgb(255, 255, 255);
-}
-.koenigsegg_section{
-  background-size: cover;
-  background-position: center;
-    background-image: url(https://images3.alphacoders.com/124/1240061.jpg);
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-}
-.koenigsegg{
-  border-right: 5px solid red;
-  border-top: 5px solid red;
-  border-left: 5px solid #ffffff;
-  border-bottom: 5px solid #ffffff;
-   width: 420px;
-   height: 369px;
-   margin-right: 150px;
-
- 
- padding-right: 10px;
-
-
 }
 .cards_fourth_section{
   display: flex;
@@ -142,6 +118,61 @@ flex-wrap: wrap;
     margin-top: 10px;
     margin-left: 90px;
   }
+  .original-button:hover {
+    box-shadow: 0 0 #ffffff;
+    color: #fff;
+    background-color: #000000;
+    border: 2px solid white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+.koenig{
+
+  padding-top: 15px;
+  padding-left: 20px;
+
+}
+.koenig{
+
+  color: rgb(255, 255, 255);
+}
+.koenigsegg_section{
+  background-size: cover;
+  background-position: center;
+    background-image: url(https://images3.alphacoders.com/124/1240061.jpg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.koenigsegg{
+  border-right: 5px solid red;
+  border-top: 5px solid red;
+  border-left: 5px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
+   width: 420px;
+   height: 369px;
+   margin-right: 150px;
+
+ 
+ padding-right: 10px;
+
+
+}
+
+  
   .original-button-1 {
     display: flex;
     align-items: center;
@@ -161,12 +192,7 @@ flex-wrap: wrap;
     margin-top: 10px;
     margin-left: 90px;
   }
-.original-button:hover {
-    box-shadow: 0 0 #ffffff;
-    color: #fff;
-    background-color: #000000;
-    border: 2px solid white;
-  }
+
 .original-button-1:hover {
     box-shadow: 0 0 #ffffff;
     color: #fff;
@@ -183,4 +209,22 @@ flex-wrap: wrap;
 }
 .span2{
   color: red;
+}
+
+
+
+
+
+
+
+
+.bugatti_section{
+  background-size: cover;
+  background-position: center;
+    background-image: url(https://hagerty-media-prod.imgix.net/2023/10/2022-Bugatti-Chiron-Super-Sport-2-scaled.jpg?auto=format%2Ccompress&ixlib=php-3.3.0);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: end
 }
