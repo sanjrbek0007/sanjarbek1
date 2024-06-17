@@ -1,0 +1,438 @@
+.anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .burger{
+  width: 50px;
+  height: 50px;
+  display: none;
+  z-index: 3;
+  @media (max-width: 700px) {
+    display: block;
+  }
+}
+.continer{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 ;
+}
+.logo{
+
+  img{
+  width: 50px;
+  height: 50px;
+  }
+}
+.headir_wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu{
+  display: flex;
+  gap: 10px;
+  transition: all 0.4s;
+
+  @media (max-width: 700px){
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 120dvh;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+  a{
+  color: gray;
+  text-decoration: none;
+}
+}
+.open {
+  top: 0;
+}
+  body{
+  background: rgb(44, 44, 44);
+  color: rgb(170, 170, 170);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+  }
+
+
+
+
+
+
+img{
+  height: 200px;
+  width: 340px;
+max-width: 500px;
+max-height: 200px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+.cards_first_section{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 40px;
+gap: 30px;
+flex-wrap: wrap;
+position: sticky;
+}
+.card{
+  border: 2px solid rgb(184, 184, 184);
+width: 344px;
+height: 440px;
+border-radius: 10px;
+background: rgb(44, 44, 44);
+
+
+    p{
+        padding: 12px 12px;
+        font-weight: 700;
+        font-size: x-large;
+        color: rgb(184, 184, 184);
+        text-align: center;
+     }
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+h2{
+  margin-left: 25vh;
+  margin-top: 50px;
+margin-bottom: 30px;
+
+
+}
+
+
+.header{
+font-size: 150px;
+}
+.cards_second_section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  gap: 30px;
+  flex-wrap: wrap;
+
+  }
+  .cards_third_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 30px;
+    flex-wrap: wrap;
+    }
+.name{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+text-align: center;
+}
+.cards_fourth_section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  gap: 30px;
+  flex-wrap: wrap;
+
+  }
+  .original-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    border-radius: 0px;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    border: 2px solid #000000;
+    transition: 0.3s;
+    box-shadow: 5px 5px 0px 0px rgb(0, 0, 0);
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-left: 70px;
+  }
+  .original-button:hover {
+    box-shadow: 0 0 #ffffff;
+    color: #fff;
+    background-color: #000000;
+    border: 2px solid white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+.koenig{
+
+  padding-top: 15px;
+  padding-left: 20px;
+
+}
+.koenig{
+
+  color: rgb(255, 255, 255);
+}
+.koenigsegg_section{
+  background-size: cover;
+  background-position: center;
+    background-image: url(https://images3.alphacoders.com/124/1240061.jpg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.koenigsegg{
+  border-right: 5px solid red;
+  border-top: 5px solid red;
+  border-left: 5px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
+   width: 420px;
+   height: 369px;
+   margin-right: 150px;
+
+ 
+ padding-right: 10px;
+
+
+}
+
+  
+  .original-button-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+    border-radius: 0px;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    border: 2px solid #ff0000;
+    transition: 0.3s;
+    box-shadow: 5px 5px 0px 0px rgb(0, 0, 0);
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin-left: 90px;
+  }
+
+.original-button-1:hover {
+    box-shadow: 0 0 #ffffff;
+    color: #fff;
+    background-color: #ff0000;
+    border: 2px solid white;
+  }
+.KG{
+  padding-top: 20px;
+  padding-left: 125px;
+  color: rgb(255, 0, 0);
+}
+.span{
+  color: white;
+}
+.span2{
+  color: red;
+}
+
+
+
+
+.bugatti_section{
+  background-size: cover;
+  background-position: center;
+    background-image: url(https://hagerty-media-prod.imgix.net/2023/10/2022-Bugatti-Chiron-Super-Sport-2-scaled.jpg?auto=format%2Ccompress&ixlib=php-3.3.0);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: end
+}
+.bugatti{
+  border-right: 5px solid #00c3ff;
+  border-top: 5px solid #00c3ff;
+  border-left: 5px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
+   width: 420px;
+   height: 369px;
+   margin-right: 150px;
+
+ 
+ padding-right: 10px;
+
+
+}
+.original-button-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: #00c3ff;
+  font-size: 18px;
+  border-radius: 0px;
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
+  border: 2px solid #00c3ff;
+  transition: 0.3s;
+  box-shadow: 5px 5px 0px 0px rgb(0, 0, 0);
+  background-color: #ffffff;
+  margin-top: 10px;
+  margin-left: 90px;
+}
+
+.original-button-2:hover {
+  box-shadow: 0 0 #ffffff;
+  color: #fff;
+  background-color: #00c3ff;
+  border: 2px solid white;
+}
+.BG{
+padding-top: 20px;
+padding-left: 125px;
+color: #00c3ff;
+}
+.span{
+color: white;
+}
+.span3{
+color: #00c3ff;
+}
+section.pagani_section{
+  background-size: cover;
+  background-position: center;
+    background-image: url(https://images5.alphacoders.com/112/1121181.jpg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: end
+}
+.pagani{
+  border-right: 5px solid #332929;
+  border-top: 5px solid #332929;
+  border-left: 5px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
+   width: 420px;
+   height: 369px;
+   margin-right: 150px;
+
+ 
+ padding-right: 10px;
+
+
+}
+.original-button-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: #332929;
+  font-size: 18px;
+  border-radius: 0px;
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
+  border: 2px solid #332929;
+  transition: 0.3s;
+  box-shadow: 5px 5px 0px 0px rgb(0, 0, 0);
+  background-color: #ffffff;
+  margin-top: 10px;
+  margin-left: 90px;
+}
+
+.original-button-3:hover {
+  box-shadow: 0 0 #ffffff;
+  color: #fff;
+  background-color: #332929;
+  border: 2px solid white;
+}
+.PG{
+padding-top: 20px;
+padding-left: 125px;
+color: #332929;
+}
+.span4{
+color: #332929;
+}
+@media (max-width: 430px) {
+  .header{
+
+  font-size: 50px;
+
+
+  }
+  h2{
+    margin-left: 0px;
+  text-align: center;
+  }
+ 
+  .container_koen{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  }
+
+
+  .koenigsegg{
+
+    margin-right: 40px;
+    font-size: smaller;
+  max-width: 340px;
+  max-height: 330px;
+   
+  
+  
+  }.bugatti{
+    margin-right: 40px;
+    font-size: smaller;
+  max-width: 340px;
+  max-height: 330px;
+   
+  }
+  .pagani{
+    margin-right: 40px;
+    font-size: smaller;
+  max-width: 340px;
+  max-height: 330px;
+   
+  }
+}
