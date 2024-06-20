@@ -337,10 +337,10 @@ color: white;
 .span3{
 color: #00c3ff;
 }
-section.pagani_section{
+.pagani_section{
   background-size: cover;
   background-position: center;
-    background-image: url(https://images5.alphacoders.com/112/1121181.jpg);
+    background-image: url(https://testdrive.com.ua/wp-content/uploads/2017/05/McLaren-720S-2.jpg);
     width: 100%;
     height: 100vh;
     display: flex;
